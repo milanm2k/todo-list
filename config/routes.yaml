@@ -1,0 +1,6 @@
+home:
+   path: /home
+   #App\Controller\ChoresController::ListChores
+   controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController::templateAction
+   defaults:
+      template: 'home\home.html.twig'
